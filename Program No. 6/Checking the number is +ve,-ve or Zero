@@ -1,0 +1,23 @@
+// C++ program for checking the number is +ve/-ve or Zero :-
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int number;
+
+  cout << "Enter an number: ";
+  cin >> number;
+
+  // checks if the number is positive
+  if (number > 0) {
+    cout << "You entered a positive integer: " << number << endl;
+  }
+  else if (number < 0) {
+    cout << "You entered a negative integer: " << number << endl;
+
+       cout << "Zero";
+  }
+  return 0;
+}
