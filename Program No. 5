@@ -1,0 +1,14 @@
+// C++ progran for print N natural number :-
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int N;
+    cout<<"Enter the number :";
+    cin>>N;
+    cout<<"Natural number is: ";
+    for (int num = 1; num <= N; num++)
+    {cout<<num;if (num!=N){cout<<",";}}
+    return 0;
+}
